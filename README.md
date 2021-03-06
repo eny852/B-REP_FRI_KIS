@@ -15,11 +15,9 @@ directory whose full path does not contain any space; for example, do not put OM
   ```
 The build process will create both debug and release binaries
   
-6. Download [AnsaInet 3.4.0](https://ansa.omnetpp.org/)
-7. Extract AnsaInet into OMNeT++ folder
-8. Download src.zip and DynamicTest-Enhanced_MREP from this github repository
-9. Extract src.zip into C:\omnetpp-5.0\ANSA-ansainet-3.4.0\src and overwrite all the files
-10. Extract DynamicTest-Enhanced_MREP into C:\omnetpp-5.0\ANSA-ansainet-3.4.0\examples\ospfv2 
+8. Download src.zip and DynamicTest_B-REP from this github repository
+9. Extract src.zip into C:\omnetpp-5.0\inet\src\inet and overwrite all the files
+10. Extract DynamicTest_B-REP into C:\omnetpp-5.0\inet\examples\ospfv2 
 11. Enter the following command into console:
   ```
   $ omnetpp
