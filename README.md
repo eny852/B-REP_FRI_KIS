@@ -15,7 +15,7 @@ directory whose full path does not contain any space; for example, do not put OM
   ```
 The build process will create both debug and release binaries
   
-6. Download src.zip and DynamicTest_B-REP from this github repository
+6. Download inet.zip and DynamicTest_B-REP from this github repository
 7. Extract src.zip into C:\omnetpp-5.0\inet\src\inet and overwrite all the files
 8. Extract DynamicTest_B-REP into C:\omnetpp-5.0\inet\examples\ospfv2 
 9. Enter the following command into console:
