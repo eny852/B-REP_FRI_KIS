@@ -15,17 +15,17 @@ directory whose full path does not contain any space; for example, do not put OM
   ```
 The build process will create both debug and release binaries
   
-8. Download src.zip and DynamicTest_B-REP from this github repository
-9. Extract src.zip into C:\omnetpp-5.0\inet\src\inet and overwrite all the files
-10. Extract DynamicTest_B-REP into C:\omnetpp-5.0\inet\examples\ospfv2 
-11. Enter the following command into console:
+6. Download src.zip and DynamicTest_B-REP from this github repository
+7. Extract src.zip into C:\omnetpp-5.0\inet\src\inet and overwrite all the files
+8. Extract DynamicTest_B-REP into C:\omnetpp-5.0\inet\examples\ospfv2 
+9. Enter the following command into console:
   ```
   $ omnetpp
   ```
   
 Command will start OMNeT++
 
-12. In the top left menu select File > Import
+10. In the top left menu select File > Import
     - In import window select General > Existing Projects into Workspace
     - In Select root directory navigate to your OMNeT++ folder
     - After search for projects is complete click on Finish
