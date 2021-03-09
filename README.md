@@ -25,7 +25,8 @@ The build process will create both debug and release binaries
   
 Command will start OMNeT++
 
-10. In the top left menu select File > Import
+10. Keep checked Install INET Framework, hit "OK" and INET will be automatically installed
+11. In the top left menu select File > Import
     - In import window select General > Existing Projects into Workspace
     - In Select root directory navigate to your OMNeT++ folder
     - After search for projects is complete click on Finish
