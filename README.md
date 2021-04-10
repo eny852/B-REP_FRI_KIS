@@ -1,6 +1,6 @@
 # B-REP_FRI_KIS
 
-B-REP is a Fast ReRoute mechanism implemented in discrete simulator OMNeT++. This repository contains source files which contains additional algorithm for B-REP implementation. The modified files are: IPv4, OSPFRouter, OSPFRouting. Besides source files, repository contains testing topology.
+B-REP is a Fast ReRoute mechanism implemented in discrete simulator OMNeT++. This repository contains source files which contains additional algorithm for B-REP implementation. The modified files are: IPv4.cc, IPv4.h, IPv4Datagram_m.cc, IPv4Datagram_m.h, OSPFRouting.cc, OSPFRouting.h, OSPFRouter.cc, OSPFRouter.h, OSPFArea.h, IPv4NetworkConfigurator.cc a  IPv4NetworkConfigurator.h. Besides source files, repository contains testing topologies.
 
 # How to setup this project
 1. Download OMNeT++ version 5.0 -> [Omnet++ 5.0](https://omnetpp.org/download/old.html)
@@ -15,9 +15,9 @@ directory whose full path does not contain any space; for example, do not put OM
   ```
 The build process will create both debug and release binaries
   
-6. Download inet.7z and DynamicTest_B-REP.7z from this github repository
+6. Download inet.7z and Topologies.7z from this github repository
 7. Extract inet.7z into C:\omnetpp-5.0\inet\src\inet and overwrite all the files
-8. Extract DynamicTest_B-REP into C:\omnetpp-5.0\inet\examples\ospfv2 
+8. Extract Topologies.7z into C:\omnetpp-5.0\inet\examples\ospfv2 
 9. Enter the following command into console:
   ```
   $ omnetpp
